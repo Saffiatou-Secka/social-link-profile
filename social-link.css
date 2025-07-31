@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-size: 22;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h2 {
+  text-align: center;
+  color: greenyellow;
+  padding-bottom: 15px;
+  font-size: 14;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+li {
+  list-style: none;
+}
+.card {
+  background-color: #252424;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(32, 32, 32, 0.1);
+  text-align: center;
+  width: 500px;
+}
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.social-links li {
+  margin: 10px 0;
+  border: #0d0d0e;
+}
+.card a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  text-decoration: none;
+  color: #f8faf9;
+  font-weight: bold;
+}
+p {
+  padding-bottom: 0px;
+  font-size: smaller;
+  color: hsl(0, 0%, 100%);
+}
+body {
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 8%);
+}
+.container {
+  width: 600px;
+  height: fit-content;
+  background-color: hsl(0, 0%, 12%);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  margin-left: 500px;
+  text-align: center;
+}
+
+.social-links .GitHub {
+  list-style-type: none;
+  padding: 15px 20px;
+  margin-top: 20px;
+  width: 250px;
+  background-color: hsl(0, 0%, 20%);
+  align-items: center;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+.social-links .Front-end {
+  list-style-type: none;
+  padding: 15px 20px;
+  margin-top: 20px;
+  width: 250px;
+  background-color: hsl(0, 0%, 20%);
+  align-items: center;
+  border-radius: 10px;
+}
+.social-links .LinkedIn {
+  list-style-type: none;
+  padding: 15px 20px;
+  margin-top: 20px;
+  width: 250px;
+  background-color: hsl(0, 0%, 20%);
+  align-items: center;
+  border-radius: 10px;
+}
+.social-links .Twitter {
+  list-style-type: none;
+  padding: 15px 20px;
+  margin-top: 20px;
+  width: 250px;
+  background-color: hsl(0, 0%, 20%);
+  align-items: center;
+  border-radius: 10px;
+}
+.social-links .Instagram {
+  list-style-type: none;
+  padding: 15px 20px;
+  margin-top: 20px;
+  width: 250px;
+  background-color: hsl(0, 0%, 20%);
+  align-items: center;
+  border-radius: 10px;
+}
